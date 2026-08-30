@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>USCSS_Terraformist</defName>
 		<title>Chief terraformist</title>
 		<titleShort>Terraformist</titleShort>
@@ -17,9 +17,9 @@
 			<Animals>8</Animals>
 			<Intellectual>6</Intellectual>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>USCSS_Pilot</defName>
 		<title>Chief Pilot</title>
 		<titleShort>Pilot</titleShort>
@@ -35,9 +35,9 @@
 			<Crafting>8</Crafting>
 			<Intellectual>6</Intellectual>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>USCSS_Officer</defName>
 		<title>Bridge Officer</title>
 		<titleShort>Bridge</titleShort>
@@ -53,9 +53,9 @@
 			<Crafting>4</Crafting>
 			<Intellectual>4</Intellectual>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>USCSS_ChiefScience</defName>
 		<title>Chief Science Officer</title>
 		<titleShort>Scientist</titleShort>
@@ -70,9 +70,9 @@
 			<Melee>3</Melee>
 			<Intellectual>9</Intellectual>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>USCSS_MilitarySecurity</defName>
 		<title>Military Security</title>
 		<titleShort>Security</titleShort>
@@ -87,5 +87,5 @@
 			<Melee>8</Melee>
 			<Intellectual>2</Intellectual>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 </Defs>

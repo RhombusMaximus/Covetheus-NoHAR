@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>WalterCreation</defName>
 		<title>Android Model</title>
 		<titleShort>Model</titleShort>
@@ -14,5 +14,5 @@
 			<Intellectual>3</Intellectual>
 			<Medicine>2</Medicine>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 </Defs>

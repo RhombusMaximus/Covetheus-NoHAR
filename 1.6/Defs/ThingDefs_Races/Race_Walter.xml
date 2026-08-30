@@ -1,430 +1,126 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--<ThingDef Name="WalterPawn" Abstract="True">
-    <thingClass>Pawn</thingClass>
-    <category>Pawn</category>
-    <selectable>true</selectable>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Pawn</altitudeLayer>
-    <useHitPoints>false</useHitPoints>
-    <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-    <inspectorTabs>
-	<li>ITab_Pawn_Health</li>
-	<li>ITab_Pawn_Needs</li>
-	<li>ITab_Pawn_Character</li>
-	<li>ITab_Pawn_Training</li>
-	<li>ITab_Pawn_Gear</li>
-	<li>ITab_Pawn_Guest</li>
-	<li>ITab_Pawn_Prisoner</li>
-	<li>ITab_Pawn_Social</li>
-	<li>ITab_Pawn_Log</li>
-	<li>ITab_Pawn_FormingCaravan</li>
-    </inspectorTabs>
-    <comps>
-        <li>
-            <compClass>CompAttachBase</compClass>
-        </li>
-    </comps>
-    <drawGUIOverlay>true</drawGUIOverlay>
-</ThingDef>-->
 
-<AlienRace.ThingDef_AlienRace ParentName="Human">
-	<defName>Android_Walter</defName>
-	<label>Walter</label>
-	<description>The world's most advanced synthetic companion. It seems that the human qualities of the David 8 series left people uncomfortable, especially the displays of ego, vanity, and pride. This lead to this new model, which lacks human qualities altogether.</description>
-	<alienRace>
-	<generalSettings>		
-	<minAgeForAdulthood>0</minAgeForAdulthood>
-	<allowHumanBios>false</allowHumanBios>
-		<forcedRaceTraitEntries>
-			<li>
-    <options>
-      <li>
-        <defName Degree="0">Emotionless</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-	<li>
-    <options>
-      <li>
-        <defName Degree="0">Kind</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>		
-			<li>
-    <options>
-      <li>
-        <defName Degree="0">Tough</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>			
-		</forcedRaceTraitEntries>
-		<maleGenderProbability>1</maleGenderProbability>
-		<immuneToAge>true</immuneToAge>
-		<disallowedTraits>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">Transhumanist</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">Nudist</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">Greedy</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">BodyPurist</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">Jealous</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">NightOwl</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">Masochist</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">Wimp</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">Pyromaniac</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">CreepyBreathing</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">AnnoyingVoice</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>
-<li>
-    <options>
-      <li>
-        <defName Degree="0">DrugDesire</defName>
-      </li>     
-    </options>    
-    <chance>100</chance>
-  </li>                  
-		</disallowedTraits>
-		<notXenophobistTowards>
-			<li>Human</li>
-		</notXenophobistTowards>
-		<humanRecipeImport>true</humanRecipeImport>
-		<alienPartGenerator>
-			<headTypes Inherit="false">
-				<li>Male_AverageNormal</li>
-			</headTypes>			
-			<bodyTypes Inherit="false">
-                <li>Male</li>
-            </bodyTypes>
-            <colorChannels>
-		<li>
-					<name>skin</name>
-                            <first Class="ColorGenerator_Options">
-                                <options>
-                                    <!-- Skin -->
-                                    <li>
-						<weight>10</weight>
-						<only>RGBA(0.90,0.90,0.80,1)</only>
-					</li>
-				</options>
-				</first>
-				 <second Class="ColorGenerator_Options">
-                                <options>
-                                    <!-- Skin -->
-                                    <li>
-						<weight>10</weight>
-						<only>RGBA(0.90,0.90,0.80,1)</only>
-					</li>
-				</options>
-				</second>
-				</li>
-			</colorChannels>
-		</alienPartGenerator>
-	</generalSettings>
+  <ThingDef ParentName="Human">
+    <defName>Android_Walter</defName>
+    <label>artificial person</label>
+    <description>The world's most advanced synthetic companion. It seems that the human qualities of the David 8 series left people uncomfortable, especially the displays of ego, vanity, and pride. This lead to this new model, which lacks human qualities altogether.</description>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <MoveSpeed>4.00</MoveSpeed>
+      <Flammability>0.2</Flammability>
+      <PsychicSensitivity>0.0</PsychicSensitivity>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <PainShockThreshold>5</PainShockThreshold>
+      <ToxicResistance>0.7</ToxicResistance>
+      <MentalBreakThreshold>0.0</MentalBreakThreshold>
+      <WorkSpeedGlobal>0.55</WorkSpeedGlobal>
+      <ImmunityGainSpeed>10</ImmunityGainSpeed>
+      <LeatherAmount>0</LeatherAmount>
+      <MeatAmount>0</MeatAmount>
+      <SocialImpact>0.7</SocialImpact>
+      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <FoodPoisonChance>0.0</FoodPoisonChance>
+      <ButcheryFleshEfficiency>0.6</ButcheryFleshEfficiency>
+      <MedicalTendQuality>0.4</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.6</MedicalSurgerySuccessChance>
+      <Mass>30</Mass>
+      <RoyalFavorValue>5</RoyalFavorValue>
+    </statBases>
 
-	<!--<graphicPaths>		
-			<head>Things/Walter/Heads/</head>
-			<body>Things/Walter/Body/</body>		
-	</graphicPaths>-->
+    <tools Inherit="false">
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
 
-	<styleSettings>
-<li>
-<key>HairDef</key>
-<value>
-<hasStyle>false</hasStyle>
-<styleTags>
-	<li>Urban</li>	
-</styleTags>
-</value>
-</li>
-<li>
-<key>BeardDef</key>
-<value>
-<hasStyle>false</hasStyle>
-<styleTags>
-    <li>NoBeard</li>
-</styleTags>
-</value>
-</li>
-</styleSettings>
-
-    <thoughtSettings>
-		<cannotReceiveThoughtsAtAll>false</cannotReceiveThoughtsAtAll>
-		<cannotReceiveThoughts>
-			<li>NeedFood</li>
-			<li>Naked</li>
-			<li>Pain</li>
-			<li>SleepDisturbed</li>
-			<li>SleptOnGround</li>
-			<li>Sick</li>
-			<li>EnvironmentCold</li>
-			<li>EnvironmentHot</li>
-			<li>ButcheredHumanlikeCorpse</li>
-			<li>KnowButcheredHumanlikeCorpse</li>
-			<li>ObservedLayingCorpse</li>
-			<li>ObservedLayingRottingCorpse</li>
-		</cannotReceiveThoughts>
-	</thoughtSettings>
-
-    <relationSettings>
-		<relationChanceModifierChild>0</relationChanceModifierChild>
-		<relationChanceModifierExLover>0</relationChanceModifierExLover>
-		<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-		<relationChanceModifierFiance>0</relationChanceModifierFiance>
-		<relationChanceModifierLover>0</relationChanceModifierLover>
-		<relationChanceModifierParent>0</relationChanceModifierParent>
-		<relationChanceModifierSibling>0</relationChanceModifierSibling>
-		<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-	</relationSettings>
-
-	<raceRestriction>
-		<traitList>
-			<li>Emotionless</li>
-		</traitList>
-
-<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
-  <li>Dirtmole</li>
-  <li>Genie</li>
-<li>Hussar</li>
-<li>Sanguophage</li>
-<li>Neanderthal</li>
-<li>Pigskin</li>
-<li>Impid</li>
-<li>Waster</li>
-<li>Yttakin</li>
-<li>Highmate</li>
-</blackXenotypeList>
-
- <blackGeneList>
-          <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
-          <li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
-        </blackGeneList>
-        <blackGeneTags>
-          <li>SkinColor</li>
-          <li>HairColor</li>
-          <li>EyeColor</li>
-          <li>BodyType</li>
-          <li>Ears</li>
-          <li>Nose</li>
-          <li>Jaw</li>
-          <li>Head</li>
-          <li>Headbone</li>
-          <li>HairStyle</li>
-          <li>BeardStyle</li>
-          <li>SkinColorOverride</li>
-          <li>Fur</li>
-          <li>Tail</li>
-        </blackGeneTags>
-        <blackEndoCategories>
-          <li>Melanin</li>
-          <li>HairColor</li>
-          <li>Ears</li>
-          <li>Nose</li>
-          <li>Jaw</li>
-          <li>Head</li>
-          <li>BodyType</li>
-        </blackEndoCategories>
-
-
-	</raceRestriction>
-</alienRace>
-
-<statBases>
-	<MarketValue>1500</MarketValue>
-	<MoveSpeed>4.00</MoveSpeed>
-	<Flammability>0.2</Flammability>
-	<PsychicSensitivity>0.0</PsychicSensitivity>
-	<ComfyTemperatureMin>-60</ComfyTemperatureMin>
-	<ComfyTemperatureMax>60</ComfyTemperatureMax>
-	<PainShockThreshold>5</PainShockThreshold>
-	<ToxicResistance>0.7</ToxicResistance>
-	<MentalBreakThreshold>0.0</MentalBreakThreshold>	
-	<WorkSpeedGlobal>0.55</WorkSpeedGlobal>
-	<ImmunityGainSpeed>10</ImmunityGainSpeed>
-	<LeatherAmount>0</LeatherAmount>
-	<MeatAmount>0</MeatAmount>
-	<SocialImpact>0.7</SocialImpact>
-	<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-	<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-	<FoodPoisonChance>0.0</FoodPoisonChance>
-	<ButcheryFleshEfficiency>0.6</ButcheryFleshEfficiency>
-	<MedicalTendQuality>0.4</MedicalTendQuality>
-	<MedicalSurgerySuccessChance>0.6</MedicalSurgerySuccessChance>
-	<Mass>30</Mass>
-	<RoyalFavorValue>5</RoyalFavorValue>
-</statBases>
-
-<tools Inherit="false">
-			<li>
-				<label>right fist</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>3</power>
-				<cooldownTime>1.2</cooldownTime>
-				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>18</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-			<li>
-				<label>left fist</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>3</power>
-				<cooldownTime>1.2</cooldownTime>
-				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>18</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>3</power>
-				<cooldownTime>1.2</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<chanceFactor>0.2</chanceFactor>
-			</li>
-		</tools>
-
-<race>
-	<!--<thinkTreeMain>WalterLike</thinkTreeMain>-->
-	<lifeExpectancy>1000</lifeExpectancy>
-	<leatherDef>Leather_Human</leatherDef>
-    <useMeatFrom>Human</useMeatFrom>
-	<nameCategory>HumanStandard</nameCategory>
-	<body>Android_Walter</body>
-	<baseBodySize>1</baseBodySize>
-	<baseHealthScale>1</baseHealthScale>
-	<needsRest>false</needsRest>
-	<foodType>OmnivoreHuman</foodType>
-	<baseHungerRate>0.2</baseHungerRate>
-	<gestationPeriodDays>1</gestationPeriodDays>
-	<canBePredatorPrey>false</canBePredatorPrey>
-	<litterSizeCurve Inherit="false">
-	<points>
-		<li>(0.5, 0)</li>
-		<li>(1, 1)</li>
-		<li>(1.01, 0.02)</li>
-		<li>(3.5, 0)</li>
+    <race>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <useMeatFrom>Human</useMeatFrom>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Android_Walter</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <needsRest>false</needsRest>
+      <foodType>OmnivoreHuman</foodType>
+      <baseHungerRate>0.2</baseHungerRate>
+      <gestationPeriodDays>1</gestationPeriodDays>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <litterSizeCurve Inherit="false">
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
         </points>
-	</litterSizeCurve>
-	<lifeStageAges Inherit="false">
-		<li>
-			<def>HumanlikeAdult</def>
-			<minAge>0</minAge>
-		</li>
-	</lifeStageAges>		
-		<specialShadowData>
+      </litterSizeCurve>
+      <lifeStageAges Inherit="false">
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+      <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>
-		</specialShadowData>
-		<ageGenerationCurve Inherit="false">
-			<points>
-		<li>(14,0)</li>
-		<li>(16,100)</li>
-		<li>(50,100)</li>
-		<li>(60,30)</li>
-		<li>(70,18)</li>
-		<li>(80,10)</li>
-		<li>(90,3)</li>
-		<li>(100,0)</li>
-			</points>
-		</ageGenerationCurve>
-		
-</race>
-</AlienRace.ThingDef_AlienRace>
+      </specialShadowData>
+      <ageGenerationCurve Inherit="false">
+        <points>
+          <li>(14,0)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+  </ThingDef>
+
 </Defs>

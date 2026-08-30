@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>AndroidCrew</defName>
 		<title>Android Crew</title>
 		<titleShort>Crew</titleShort>
@@ -22,5 +22,5 @@
 			<Artistic>10</Artistic>
 			<Mining>10</Mining>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 </Defs>

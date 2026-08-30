@@ -13,7 +13,7 @@
 
   <PawnKindDef ParentName="BaseOwlPlayerPawnKind">
     <defName>Walter_Colonist</defName>
-    <label>Walter</label>
+    <label>Artificial Person</label>
     <backstoryFiltersOverride>
       <li>
         <categories>

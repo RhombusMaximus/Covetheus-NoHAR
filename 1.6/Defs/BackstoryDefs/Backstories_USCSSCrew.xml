@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<AlienRace.AlienBackstoryDef>
+	<BackstoryDef>
 		<defName>USCSSCrew</defName>
 		<title>USCSS Crew</title>
 		<titleShort>Crew</titleShort>
@@ -16,5 +16,5 @@
 			<Medicine>2</Medicine>
 			<Intellectual>2</Intellectual>
 		</skillGains>
-	</AlienRace.AlienBackstoryDef>
+	</BackstoryDef>
 </Defs>
