@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- ===== Trapper Hat ==== -->
+<ThingDef ParentName="LBHeadgearBase">
+    <defName>LBC_Apparel_CovetheusTrapperHat</defName>
+    <label>Covetheus Trapper Hat</label>
+    <description>A warm hat with ear coverings, for adventurous individuals who love to be outdoors in even the chilliest weather.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Headgear/CovetheusTrapperHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>2200</WorkToMake>
+      <Mass>0.28</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.70</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Headgear/CovetheusTrapperHat</wornGraphicPath>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>USCSS_Standard_Apparel</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="LBHeadgearBase">
+    <defName>LBC_Apparel_CovetheusTrapperHatSand</defName>
+    <label>Covetheus Trapper Hat (Sand)</label>
+    <description>A warm hat with ear coverings, for adventurous individuals who love to be outdoors in even the chilliest weather.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Headgear/CovetheusTrapperHatSand</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>2200</WorkToMake>
+      <Mass>0.28</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.70</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Headgear/CovetheusTrapperHatSand</wornGraphicPath>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>USCSS_Standard_Apparel</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef>
+		<defName>WalterCreation</defName>
+		<title>Android Model</title>
+		<titleShort>Model</titleShort>
+		<description>The all-new {PAWN_nameDef}. Created to serve.</description>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>WalterBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<Intellectual>3</Intellectual>
+			<Medicine>2</Medicine>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

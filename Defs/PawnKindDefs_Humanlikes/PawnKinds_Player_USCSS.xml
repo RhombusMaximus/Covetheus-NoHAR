@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="LBC_USCSS_BasePlayerPawnKind">
+    <race>Human</race>
+    <combatPower>40</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+            <li>USCSSBackstory</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+	<initialWillRange>0~2</initialWillRange>
+		<initialResistanceRange>10~20</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="LBC_USCSS_BasePlayerPawnKind">
+    <defName>LBC_USCSS_Colonist</defName>
+    <label>USCSS Colonist</label>
+    <defaultFactionType>LBC_USCSS_PlayerColony</defaultFactionType>
+    <apparelTags>
+      <li>USCSS_Standard_Apparel</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>100</apparelAllowHeadgearChance>
+    <apparelMoney>500~800</apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+</Defs>

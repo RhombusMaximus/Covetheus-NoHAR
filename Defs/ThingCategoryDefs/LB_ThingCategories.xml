@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- LB Apparel Base -->
+	<ThingCategoryDef>
+    <defName>LB_Apparel</defName>
+    <label>Covetheus Apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+
+<!-- LB Headgear Base -->
+  <ThingCategoryDef>
+    <defName>LB_Headgear</defName>
+    <label>headgear</label>
+    <parent>LB_Apparel</parent>
+  </ThingCategoryDef>  
+
+<!-- LB Apparel Armor Base -->
+  <ThingCategoryDef>
+    <defName>LB_ApparelArmor</defName>
+    <label>armor</label>
+    <parent>LB_Apparel</parent>
+  </ThingCategoryDef>    
+  
+<!-- [LB] Backpack Base -->  
+  <ThingCategoryDef>
+    <defName>LBApparel_Backpack</defName>
+    <label>backpack</label>
+    <parent>LB_Apparel</parent>
+  </ThingCategoryDef>
+
+</Defs>

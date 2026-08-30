@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- ============== [LB] Apparel Base ================= -->
+  <ThingDef Name="LBApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="LBApparelMakeableBase" ParentName="LBApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+    <apparel>
+      <tags>
+        <li>USCSS_Base_Apparel</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+<ThingDef Name="LBHeadgearBase" ParentName="LBApparelMakeableBase" Abstract="true">
+    <description>Standard USCSS Headgear.</description>
+    <apparel>
+      <tags>
+        <li>USCSS_Headgear</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>LB_Headgear</li>
+    </thingCategories>
+  </ThingDef> 
+
+<!-- ============== [LB] Covetheus - Apparel ================= -->
+<!-- ==============     Covetheus Casual Smocks    ================= -->
+  <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBC_Apparel_CovetheusHoodie</defName>
+    <label>Covetheus Hoodie</label>
+    <description>A Covetheus USCSS weatherproof hoodie to stop scrapes and bruises, and to keep one warm in chilly weather.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Hoodie/CovetheusHoodie</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>LB_Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.5</Mass>
+      <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Hoodie/CovetheusHoodie</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBC_Apparel_CovetheusHoodieSand</defName>
+    <label>Covetheus Hoodie Sand</label>
+    <description>A Covetheus weatherproof hoodie to stop scrapes and bruises, and to keep one warm in chilly weather.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Hoodie/CovetheusHoodieSand</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>LB_Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.5</Mass>
+      <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Hoodie/CovetheusHoodieSand</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+
+  <!-- ==============     Covetheus Jumpsuits    ================= -->
+  <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBC_Apparel_CovetheusCasualJumpsuit</defName>
+    <label>Covetheus Casual Jumpsuit.</label>
+    <description>A Covetheus Casual Jumpsuit for everyday casual wear for your colonist.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Jumpsuit/CovetheusCasualJumpsuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>LB_Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+      <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Jumpsuit/CovetheusCasualJumpsuit</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>USCSS_Standard_Apparel</li>
+      </tags>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBC_Apparel_CovetheusCasualJumpsuitGray</defName>
+    <label>Covetheus Casual Jumpsuit (Gray)</label>
+    <description>A Covetheus Casual Jumpsuit for everyday casual wear for your colonist.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Jumpsuit/CovetheusCasualJumpsuitGray</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>LB_Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+      <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Jumpsuit/CovetheusCasualJumpsuitGray</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>USCSS_Standard_Apparel</li>
+      </tags>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBC_Apparel_CovetheusEngineerJumpsuit</defName>
+    <label>Covetheus Engineer Jumpsuit.</label>
+    <description>A Covetheus Jumpsuit for your Engineers.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Jumpsuit/CovetheusEngineerJumpsuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>LB_Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+      <ConstructSuccessChance>0.05</ConstructSuccessChance>
+      <ConstructionSpeed>0.06</ConstructionSpeed>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+      <GeneralLaborSpeed>1.0</GeneralLaborSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Jumpsuit/CovetheusEngineerJumpsuit</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>USCSS_Standard_Apparel</li>
+      </tags>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==============     Covetheus Casual Jackets    ================= -->
+  <!-- ==============     Covetheus Combat Jackets    ================= -->
+  <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBC_Apparel_CovetheusCombatJacket</defName>
+    <label>Covetheus Combat Jacket</label>
+    <description>A Covetheus USCSS weatherproof jacket to stop scrapes and bruises, and to keep one warm in chilly weather.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Jacket/CovetheusCombatJacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>LB_ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.5</Mass>
+      <StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Jacket/CovetheusCombatJacket</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBC_Apparel_CovetheusCombatVest</defName>
+    <label>Covetheus Combat Vest</label>
+    <description>A Covetheus USCSS weatherproof jacket to stop scrapes and bruises, and to keep one warm in chilly weather.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Jacket/CovetheusCombatVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>LB_ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.5</Mass>
+      <StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Jacket/CovetheusCombatVest</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+</Defs>

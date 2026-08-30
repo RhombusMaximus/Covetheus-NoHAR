@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ScenarioDef Name="ColonyMission" ParentName="ScenarioBase">
+    <defName>USCSS_Colony_Mission</defName>
+    <label>USCSS Colony Mission</label>
+    <description>The colonization ship Covetheus is seven years from reaching planet Origae-6, with 2,000 colonists in stasis and 1,140 human embryos in cold storage. The ship is monitored by an Artificial Person, an advanced android model. When a shockwave damages the ship, the Android reanimates his human crewmates. The ship's captain, Jake, is burned alive when his stasis pod malfunctions. While repairing the ship, the crew picks up a transmission of a human voice from a nearby planet, which appears eminently more habitable than Origae-6. Despite the protests of some of the colonist, that this new "perfect" planet is too good to be true, the newly-promoted captain decides that they will check the new planet.</description>
+    <scenario>
+      <summary>USCSS Colony Mission - find a habitable planet for your colonist to settle.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>LBC_USCSS_PlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>7</pawnCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+
+        <!-- Player pawns modifiers -->
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.5</chance>
+          <hediff>CryptosleepSickness</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~1</severityRange>
+        </li>
+
+        <li Class="ScenPart_PawnFilter_Age">
+          <def>PawnFilter_Age</def>
+          <allowedAgeRange>21~35</allowedAgeRange>
+        </li>
+        
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>80</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>F90_LBC</thingDef>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>RawRice</thingDef>
+        <count>100</count>
+      </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>
+
+          Captain: Everyone Set?
+          Crew 1: Let's move
+          Crew 2: Air feels good.
+          Captain: Okay, We're gonna keep expedition security protocols in place.
+
+          Captain: Covetheus you got me?
+          Covetheus Ship: Yeah, Loud and cle.. *explosions *static
+          Captain: Covetheus?! Covetheus, repeat. Covetheus, repeat! Sh*t!
+
+          </text>
+          <closeSound>LBC_theCovenant_Spawn</closeSound>
+        </li>    
+    
+<li Class="CustomScenParts.ScenPart_AddPawnKind">
+	<def>CustomScenParts_AddPawnKind</def>
+      <pawnKindDef>Walter_Colonist</pawnKindDef>
+	<summaryLabel>Start with an Artificial Person</summaryLabel>
+    </li>
+
+	<!--<li Class="AlienRace.ScenPart_StartingHumanlikes">
+				<def>StartingHumanlikes</def>
+				<pawnCount>1</pawnCount>
+				<kindDef>Walter_Colonist</kindDef>
+			</li>-->
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

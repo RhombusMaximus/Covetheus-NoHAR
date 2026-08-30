@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>Emotionless</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Emotionless</label>
+        <description>They are capable of understanding emotions but its nothing for them. This makes them less than desired to socialize.</description>
+        <statOffsets>
+          <SocialImpact>-0.90</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetEmotionless</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>Emotionless</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Emotionless</label>
+        <description>Unable to fully feel emotion.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

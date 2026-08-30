@@ -1,0 +1,60 @@
+<Defs>
+  <!--============== Backpacks =================-->
+  <!-- Covetheus Backpacks -->
+    <ThingDef ParentName="LBApparelMakeableBase">
+    <defName>LBCApparel_Backpacks</defName>
+    <label>Covetheus Backpack</label>
+    <description>A backpack with a camera and solar panel attachment.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Backpack/CovetheusBackpack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>	  
+    </graphicData>
+    <costStuffCount>70</costStuffCount>
+	 <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+	  	  <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	<colorPerStuff>
+      <li>
+        <stuff>Cloth</stuff>
+        <color>(129, 97, 60)</color>
+      </li>
+    </colorPerStuff>
+	<generateCommonality>0.4</generateCommonality>
+    <thingCategories>
+      <li>LBApparel_Backpack</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>40</CarryingCapacity> 
+	  <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Backpack/CovetheusBackpack</wornGraphicPath>
+      <layers>
+        <li>Backpack</li>
+      </layers>
+      <tags>
+        <li>USCSS_Standard_Apparel</li>
+      </tags>	  
+    </apparel>
+  </ThingDef>  
+  
+</Defs>
