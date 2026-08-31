@@ -165,62 +165,7 @@
 
 
   <!-- ==============     Covetheus Jumpsuits    ================= -->
-  <ThingDef ParentName="LBApparelMakeableBase">
-    <defName>LBC_Apparel_CovetheusCasualJumpsuit</defName>
-    <label>Covetheus Casual Jumpsuit.</label>
-    <description>A Covetheus Casual Jumpsuit for everyday casual wear for your colonist.</description>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Jumpsuit/CovetheusCasualJumpsuit</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>0.90</drawSize>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <costStuffCount>55</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>LB_Apparel</li>
-    </thingCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
-      <Mass>1.0</Mass>
-      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.5</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-      <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Jumpsuit/CovetheusCasualJumpsuit</wornGraphicPath>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
-      <tags>
-        <li>USCSS_Standard_Apparel</li>
-      </tags>
-      <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
-  </ThingDef>
-
+  <!-- Blue Casual Jumpsuit removed — missing south/west textures caused wrong view -->
   <ThingDef ParentName="LBApparelMakeableBase">
     <defName>LBC_Apparel_CovetheusCasualJumpsuitGray</defName>
     <label>Covetheus Casual Jumpsuit (Gray)</label>
