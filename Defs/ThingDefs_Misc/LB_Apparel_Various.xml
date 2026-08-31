@@ -221,64 +221,8 @@
     </apparel>
   </ThingDef>
 
-  <ThingDef ParentName="LBApparelMakeableBase">
-    <defName>LBC_Apparel_CovetheusEngineerJumpsuit</defName>
-    <label>Covetheus Engineer Jumpsuit.</label>
-    <description>A Covetheus Jumpsuit for your Engineers.</description>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Display/Jumpsuit/CovetheusEngineerJumpsuit</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>0.90</drawSize>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <costStuffCount>55</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>LB_Apparel</li>
-    </thingCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
-      <Mass>1.0</Mass>
-      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-      <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
-      <ConstructSuccessChance>0.05</ConstructSuccessChance>
-      <ConstructionSpeed>0.06</ConstructionSpeed>
-      <EquipDelay>1.5</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
-      <GeneralLaborSpeed>1.0</GeneralLaborSpeed>
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LB_Covetheus/Jumpsuit/CovetheusEngineerJumpsuit</wornGraphicPath>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
-      <tags>
-        <li>USCSS_Standard_Apparel</li>
-      </tags>
-      <useWornGraphicMask>true</useWornGraphicMask>
-    </apparel>
-  </ThingDef>
-  
+  <!-- Engineer Jumpsuit removed — texture was placeholder copy of Casual Jumpsuit -->
+
   <!-- ==============     Covetheus Casual Jackets    ================= -->
   <!-- ==============     Covetheus Combat Jackets    ================= -->
   <ThingDef ParentName="LBApparelMakeableBase">
