@@ -258,7 +258,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ThreadHelper:ThreadStart ()
 
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
-Build date: 4/13/2026 8:02 AM
+Build date: 7/31/2026 6:45 PM
 Loaded assemblies (9):
 0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
 0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
@@ -292,7 +292,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> Scanning 201 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 199 mods for animation data...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -371,52 +371,6 @@ RimSaves NX rev27
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 aRandomKiwi.ARS.RimSaves:.ctor (Verse.ModContentPack)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-<color=#4494E3FF>:: Tabula Rasa ::</color> 1.6.9605 ::
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-TabulaRasa.LogUtil:Message (string)
-TabulaRasa.TabulaRasaMod:.ctor (Verse.ModContentPack)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-<color=#4494E3FF>:: Shield Generators ::</color> 1.0.9299 ::
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-ShieldGen.LogUtil:LogMessage (string)
-ShieldGen.ShieldGenMod:.ctor (Verse.ModContentPack)
 System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
 System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
 System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
@@ -569,7 +523,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[XML Extensions] 3841 total patch operations run in 9284ms, 0 failed
+[XML Extensions] 3841 total patch operations run in 9003ms, 0 failed
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 XmlExtensions.XmlExtensions:.cctor ()
@@ -1149,7 +1103,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (15):
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (14):
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 AM.Core:Warn (string)
@@ -1171,7 +1125,6 @@ Prefixes:
   [OskarPotocki.VEF] Prefix
   [OskarPotocki.VEF] DrawEquipmentAimingPrefix
   [co.uk.epicguru.meleeanimation] Prefix
-  [Neronix17.TabulaRasa.RimWorld] Prefix
   [OskarPotocki.VEF] DrawDuplicate
   [com.github.automatic1111.gunplay] Prefix
 Transpilers:
@@ -1253,7 +1206,6 @@ Prefixes:
   [OskarPotocki.VEF] Prefix
   [OskarPotocki.VEF] DrawEquipmentAimingPrefix
   [co.uk.epicguru.meleeanimation] Prefix
-  [Neronix17.TabulaRasa.RimWorld] Prefix
   [OskarPotocki.VEF] DrawDuplicate
   [com.github.automatic1111.gunplay] Prefix
 Transpilers:
@@ -1382,7 +1334,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 235.0ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 191.1ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1393,7 +1345,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 60 weapons.
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 63 weapons.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1404,29 +1356,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-AM.Core:Warn (string)
-AM.Core:LoadAllTweakData ()
-AM.Core:<AddLateLoadEvents>b__28_1 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-AM.Core:Warn (string)
-AM.Core:LoadAllTweakData ()
-AM.Core:<AddLateLoadEvents>b__28_1 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-<color=#66ffb5>[MeleeAnim]</color> redmattis.betterprerequisites 'Big and Small - Framework' has 1 missing weapon tweak data.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 AM.Core:Warn (string)
@@ -1448,7 +1378,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 75.7 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 75.0 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1463,7 +1393,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 1.02 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 0.99 ms:
 VAE_Handwear_Gloves (Gloves),
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
@@ -1478,7 +1408,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-  --> [What's That Mod] Took 0.23 seconds to scan all patches. <--
+  --> [What's That Mod] Took 0.29 seconds to scan all patches. <--
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
@@ -1489,7 +1419,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-What's That Mod: Wrote to 7246 mod descriptions, 10 patched defs resolved.
+What's That Mod: Wrote to 7230 mod descriptions, 10 patched defs resolved.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
@@ -1500,7 +1430,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-What's That Mod took 250 milliseconds to generate all def descriptions.
+What's That Mod took 308 milliseconds to generate all def descriptions.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 WhatsThatMod.ModCore:Run ()
@@ -1528,7 +1458,7 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1541,7 +1471,7 @@ CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<stri
 CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetGene>> (CharacterEditor.EType)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1556,7 +1486,7 @@ CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<stri
 CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetGene>> (CharacterEditor.EType)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1569,12 +1499,12 @@ CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<stri
 CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-3804 default entities for objects created
+3798 default entities for objects created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
@@ -1584,7 +1514,7 @@ CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<stri
 CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1597,7 +1527,7 @@ CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<stri
 CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1612,7 +1542,7 @@ CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<stri
 CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1622,7 +1552,7 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1632,7 +1562,7 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1644,7 +1574,7 @@ CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,stri
 CharacterEditor.PresetGene:LoadAllModifications (string)
 CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1658,7 +1588,7 @@ CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,stri
 CharacterEditor.PresetObject:LoadAllModifications (string)
 CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1672,7 +1602,7 @@ CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,stri
 CharacterEditor.PresetObject:LoadAllModifications (string)
 CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1684,7 +1614,7 @@ CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,stri
 CharacterEditor.PresetLifeStage:LoadAllModifications (string)
 CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
@@ -1694,7 +1624,7 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
 CharacterEditor.CEditor:OnMainMenuOnGUI ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
