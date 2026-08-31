@@ -168,7 +168,7 @@
   <!-- Blue Casual Jumpsuit removed — missing south/west textures caused wrong view -->
   <ThingDef ParentName="LBApparelMakeableBase">
     <defName>LBC_Apparel_CovetheusCasualJumpsuitGray</defName>
-    <label>Covetheus Casual Jumpsuit (Gray)</label>
+    <label>Covetheus Casual Jumpsuit</label>
     <description>A Covetheus Casual Jumpsuit for everyday casual wear for your colonist.</description>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
