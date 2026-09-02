@@ -21,9 +21,11 @@
         <!-- Add Artificial Person as an additional starting pawn -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
           <def>ConfigPage_ConfigureStartingPawns_KindDefs</def>
-          <pawnKindDefs>
-            <li>Walter_Colonist</li>
-          </pawnKindDefs>
+          <kindCounts>
+            <li>
+              <kindDef>Walter_Colonist</kindDef>
+            </li>
+          </kindCounts>
         </li>
 
         <!-- Player starting stuff spawn method-->
