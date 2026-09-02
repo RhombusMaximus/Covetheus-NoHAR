@@ -78,6 +78,7 @@
     </tools>
 
     <race>
+      <renderTree>Humanlike</renderTree>
       <lifeExpectancy>1000</lifeExpectancy>
       <leatherDef>Leather_Human</leatherDef>
       <useMeatFrom>Human</useMeatFrom>
