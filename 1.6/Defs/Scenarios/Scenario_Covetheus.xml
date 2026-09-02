@@ -12,16 +12,31 @@
       </playerFaction>
       <parts>
 
-        <!-- Config pages -->
-        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-          <def>ConfigPage_ConfigureStartingPawns</def>
-          <pawnCount>7</pawnCount>
-        </li>
-
-        <!-- Add Artificial Person as an additional starting pawn -->
+        <!-- Config pages: 7 humans + 1 Artificial Person -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
           <def>ConfigPage_ConfigureStartingPawns_KindDefs</def>
           <kindCounts>
+            <li>
+              <kindDef>LBC_USCSS_Colonist</kindDef>
+            </li>
+            <li>
+              <kindDef>LBC_USCSS_Colonist</kindDef>
+            </li>
+            <li>
+              <kindDef>LBC_USCSS_Colonist</kindDef>
+            </li>
+            <li>
+              <kindDef>LBC_USCSS_Colonist</kindDef>
+            </li>
+            <li>
+              <kindDef>LBC_USCSS_Colonist</kindDef>
+            </li>
+            <li>
+              <kindDef>LBC_USCSS_Colonist</kindDef>
+            </li>
+            <li>
+              <kindDef>LBC_USCSS_Colonist</kindDef>
+            </li>
             <li>
               <kindDef>Walter_Colonist</kindDef>
             </li>
