@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenPartDef>
+    <defName>ConfigPage_ConfigureStartingPawns_KindDefs</defName>
+    <category>ConfigPage</category>
+    <scenPartClass>ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs</scenPartClass>
+    <selectionWeight>1.0</selectionWeight>
+    <maxUses>1</maxUses>
+    <canBeRandomlyAdded>false</canBeRandomlyAdded>
+    <canBePlayerAddedRemoved>false</canBePlayerAddedRemoved>
+    <pageClass>Page_ConfigureStartingPawns</pageClass>
+  </ScenPartDef>
+
+</Defs>
