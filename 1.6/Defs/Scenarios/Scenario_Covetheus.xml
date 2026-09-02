@@ -83,17 +83,11 @@
           <closeSound>LBC_theCovenant_Spawn</closeSound>
         </li>    
     
-<li Class="CustomScenParts.ScenPart_AddPawnKind">
-	<def>CustomScenParts_AddPawnKind</def>
-      <pawnKindDef>Walter_Colonist</pawnKindDef>
-	<summaryLabel>Start with an Artificial Person</summaryLabel>
-    </li>
-
-	<!--<li Class="AlienRace.ScenPart_StartingHumanlikes">
-				<def>StartingHumanlikes</def>
-				<pawnCount>1</pawnCount>
-				<kindDef>Walter_Colonist</kindDef>
-			</li>-->
+<li Class="ScenPart_StartingHumanlike">
+	<def>StartingHumanlike</def>
+	<pawnCount>1</pawnCount>
+	<kindDef>Walter_Colonist</kindDef>
+</li>
       </parts>
     </scenario>
   </ScenarioDef>
