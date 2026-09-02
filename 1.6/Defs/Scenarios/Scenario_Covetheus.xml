@@ -18,6 +18,14 @@
           <pawnCount>7</pawnCount>
         </li>
 
+        <!-- Add Artificial Person as an additional starting pawn -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+          <def>ConfigPage_ConfigureStartingPawns_KindDefs</def>
+          <pawnKindDefs>
+            <li>Walter_Colonist</li>
+          </pawnKindDefs>
+        </li>
+
         <!-- Player starting stuff spawn method-->
         <li Class="ScenPart_PlayerPawnsArriveMethod">
           <def>PlayerPawnsArriveMethod</def>
@@ -81,13 +89,7 @@
 
           </text>
           <closeSound>LBC_theCovenant_Spawn</closeSound>
-        </li>    
-    
-<li Class="ScenPart_StartingHumanlike">
-	<def>StartingHumanlike</def>
-	<pawnCount>1</pawnCount>
-	<kindDef>Walter_Colonist</kindDef>
-</li>
+        </li>
       </parts>
     </scenario>
   </ScenarioDef>
