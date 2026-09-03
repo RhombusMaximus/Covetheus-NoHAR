@@ -9,7 +9,8 @@
 		<spawnCategories>
 			<li>WalterBackstory</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<Intellectual>3</Intellectual>
 			<Medicine>2</Medicine>

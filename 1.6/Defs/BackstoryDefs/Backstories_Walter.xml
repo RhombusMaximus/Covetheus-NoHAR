@@ -9,7 +9,8 @@
 		<spawnCategories>
 			<li>WalterBackstory</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<Shooting>10</Shooting>
 			<Melee>10</Melee>

@@ -9,7 +9,8 @@
 		<spawnCategories>
 			<li>USCSSBackstory</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<Shooting>2</Shooting>
 			<Melee>2</Melee>
