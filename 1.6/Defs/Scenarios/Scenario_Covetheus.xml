@@ -12,31 +12,16 @@
       </playerFaction>
       <parts>
 
-        <!-- Config pages: 7 humans + 1 Artificial Person -->
+        <!-- Config pages: 7 human colonists -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>7</pawnCount>
+        </li>
+
+        <!-- Add 1 Artificial Person -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
           <def>ConfigPage_ConfigureStartingPawns_KindDefs</def>
           <kindCounts>
-            <li>
-              <kindDef>LBC_USCSS_Colonist</kindDef>
-            </li>
-            <li>
-              <kindDef>LBC_USCSS_Colonist</kindDef>
-            </li>
-            <li>
-              <kindDef>LBC_USCSS_Colonist</kindDef>
-            </li>
-            <li>
-              <kindDef>LBC_USCSS_Colonist</kindDef>
-            </li>
-            <li>
-              <kindDef>LBC_USCSS_Colonist</kindDef>
-            </li>
-            <li>
-              <kindDef>LBC_USCSS_Colonist</kindDef>
-            </li>
-            <li>
-              <kindDef>LBC_USCSS_Colonist</kindDef>
-            </li>
             <li>
               <kindDef>Walter_Colonist</kindDef>
             </li>
