@@ -31,7 +31,7 @@
         <!-- Player starting stuff spawn method-->
         <li Class="ScenPart_PlayerPawnsArriveMethod">
           <def>PlayerPawnsArriveMethod</def>
-          <method>Standing</method>
+          <method>DropPods</method>
         </li>
 
         <!-- Player pawns modifiers -->
