@@ -12,22 +12,10 @@
       </playerFaction>
       <parts>
 
-        <!-- Config pages: choose 7 humans from 10 candidates -->
+        <!-- Config pages: 8 starting pawns (7 humans + 1 Artificial Person) -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
           <def>ConfigPage_ConfigureStartingPawns</def>
-          <pawnCount>7</pawnCount>
-          <pawnChoiceCount>10</pawnChoiceCount>
-        </li>
-
-        <!-- Add 1 Artificial Person, choose from 10 candidates -->
-        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
-          <def>ConfigPage_ConfigureStartingPawns_KindDefs</def>
-          <pawnChoiceCount>10</pawnChoiceCount>
-          <kindCounts>
-            <li>
-              <kindDef>Walter_Colonist</kindDef>
-            </li>
-          </kindCounts>
+          <pawnCount>8</pawnCount>
         </li>
 
         <!-- Player starting stuff spawn method-->

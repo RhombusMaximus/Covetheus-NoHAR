@@ -5,7 +5,6 @@
 		<title>Android Model</title>
 		<titleShort>Model</titleShort>
 		<description>The all-new {PAWN_nameDef}. Created to serve.</description>
-		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>WalterBackstory</li>

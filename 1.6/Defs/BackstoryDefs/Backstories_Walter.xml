@@ -5,7 +5,6 @@
 		<title>Android Crew</title>
 		<titleShort>Crew</titleShort>
 		<description>{PAWN_nameDef} a new android model and one of the crew member of a colony ship, Covetheus. {PAWN_nameDef} would monitor all functions of "mother" the ship AI computer, remaining awake while the rest of the crew had entered their hypersleep. Trained to protect and to quickly react to danger.</description>
-		<bodyTypeGlobal>Male</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>WalterBackstory</li>
