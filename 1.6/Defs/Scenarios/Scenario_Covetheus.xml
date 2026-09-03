@@ -12,15 +12,17 @@
       </playerFaction>
       <parts>
 
-        <!-- Config pages: 7 human colonists -->
+        <!-- Config pages: choose 7 humans from 10 candidates -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
           <def>ConfigPage_ConfigureStartingPawns</def>
           <pawnCount>7</pawnCount>
+          <pawnChoiceCount>10</pawnChoiceCount>
         </li>
 
-        <!-- Add 1 Artificial Person -->
+        <!-- Add 1 Artificial Person, choose from 10 candidates -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
           <def>ConfigPage_ConfigureStartingPawns_KindDefs</def>
+          <pawnChoiceCount>10</pawnChoiceCount>
           <kindCounts>
             <li>
               <kindDef>Walter_Colonist</kindDef>
