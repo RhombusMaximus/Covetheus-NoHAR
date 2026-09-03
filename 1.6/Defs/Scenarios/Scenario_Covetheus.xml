@@ -12,10 +12,17 @@
       </playerFaction>
       <parts>
 
-        <!-- Config pages: 8 starting pawns (7 humans + 1 Artificial Person) -->
+        <!-- Config pages: 7 human colonists -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
           <def>ConfigPage_ConfigureStartingPawns</def>
-          <pawnCount>8</pawnCount>
+          <pawnCount>7</pawnCount>
+        </li>
+
+        <!-- Start with 1 Artificial Person -->
+        <li Class="CustomScenParts.ScenPart_AddPawnKind">
+          <def>CustomScenParts_AddPawnKind</def>
+          <pawnKindDef>Walter_Colonist</pawnKindDef>
+          <summaryLabel>Start with an Artificial Person</summaryLabel>
         </li>
 
         <!-- Player starting stuff spawn method-->
