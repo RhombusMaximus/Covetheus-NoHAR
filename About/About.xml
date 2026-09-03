@@ -8,20 +8,24 @@
 	<modVersion IgnoreIfNoMatchingField="True">2.0.0</modVersion>
 	<packageId>zal.covetheus.nohar</packageId>
 	<description>
-Original mod by Lelbaro
-https://steamcommunity.com/sharedfiles/filedetails/?id=2077371272
-1.4/1.5 update by Zaljerem
-HAR dependency removal by RhombusMaximus
+Covetheus without the Humanoid Alien Races (HAR) dependency.
 
-Includes artificial person race, starting scenario, equipment as listed below.
+Includes the Artificial Person (Android) race, USCSS Colony mission scenario, and Covetheus apparel — all using vanilla RimWorld systems. No HAR required.
 
-Currently included:
- -USCSS Colony mission Scenario!
- -USCSS Hoodies! (different designs for Female and Male colonist).
- -Jumpsuits! (for Casual/Engineer wear).
- -Trapper Hats!
- -Backpack! (with camera and solar panel attachment).
+Artificial Person Race:
+Android based on the Alien franchise's Walter/David series. Gender-neutral, no life stages, high immunity, low flammability, no sleep needed. Custom backstories for USCSS crew roles.
 
-No HAR dependency — uses vanilla ThingDef with Harmony patches for race features.
-	</description>
+USCSS Colony Mission Scenario:
+Start with 7 human colonists + 1 Artificial Person arriving in drop pods. Includes F90 rifles, survival supplies, and custom game start dialog.
+
+Apparel:
+USCSS Hoodies (male/female variants), Casual Jumpsuits, Trapper Hats, Backpack with camera and solar panel.
+
+HAR Removal:
+Converted from AlienRace.ThingDef_AlienRace to vanilla ThingDef with renderTree=Humanlike. All backstories converted to vanilla BackstoryDef. No mod dependencies required.
+
+Credits:
+Original mod by Lelbaro. 1.4/1.5 update by Zaljerem. 1.6 port and HAR removal by RhombusMaximus.
+
+Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2077371272</description>
 </ModMetaData>
