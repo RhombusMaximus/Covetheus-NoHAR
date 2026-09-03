@@ -3,7 +3,7 @@
 
   <ScenPartDef>
     <defName>ConfigPage_ConfigureStartingPawns_KindDefs</defName>
-    <category>ConfigPage</category>
+    <category>StartingImportant</category>
     <scenPartClass>ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs</scenPartClass>
     <selectionWeight>1.0</selectionWeight>
     <maxUses>1</maxUses>
