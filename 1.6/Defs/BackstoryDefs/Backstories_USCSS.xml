@@ -10,6 +10,7 @@
 		<spawnCategories>
 			<li>USCSSBackstory</li>
 		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Shooting>3</Shooting>
 			<Melee>2</Melee>
@@ -29,6 +30,7 @@
 		<spawnCategories>
 			<li>USCSSBackstory</li>
 		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Shooting>4</Shooting>
 			<Melee>3</Melee>
@@ -47,6 +49,7 @@
 		<spawnCategories>
 			<li>USCSSBackstory</li>
 		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Shooting>3</Shooting>
 			<Melee>2</Melee>
@@ -65,6 +68,7 @@
 		<spawnCategories>
 			<li>USCSSBackstory</li>
 		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Shooting>3</Shooting>
 			<Melee>3</Melee>
@@ -82,6 +86,7 @@
 		<spawnCategories>
 			<li>USCSSBackstory</li>
 		</spawnCategories>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Shooting>8</Shooting>
 			<Melee>8</Melee>
