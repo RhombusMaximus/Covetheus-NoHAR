@@ -1,7 +1,0 @@
-/home/hermes/Covetheus-NoHAR/Source/obj/Release/CovetheusNoHAR.csproj.AssemblyReference.cache
-/home/hermes/Covetheus-NoHAR/Source/obj/Release/CovetheusNoHAR.GeneratedMSBuildEditorConfig.editorconfig
-/home/hermes/Covetheus-NoHAR/Source/obj/Release/CovetheusNoHAR.csproj.CoreCompileInputs.cache
-/home/hermes/Covetheus-NoHAR/Source/bin/Release/CovetheusNoHAR.dll
-/home/hermes/Covetheus-NoHAR/Source/bin/Release/0Harmony.dll
-/home/hermes/Covetheus-NoHAR/Source/obj/Release/Covetheu.E6687326.Up2Date
-/home/hermes/Covetheus-NoHAR/Source/obj/Release/CovetheusNoHAR.dll
