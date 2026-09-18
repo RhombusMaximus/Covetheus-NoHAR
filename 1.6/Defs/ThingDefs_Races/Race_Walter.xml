@@ -80,6 +80,7 @@
     <race>
       <renderTree>Humanlike</renderTree>
       <bloodDef>LBC_FilthBloodWalter</bloodDef>
+      <bloodSmearDef>LBC_FilthBloodWalter</bloodSmearDef>
       <lifeExpectancy>1000</lifeExpectancy>
       <leatherDef>Leather_Human</leatherDef>
       <useMeatFrom>Human</useMeatFrom>
