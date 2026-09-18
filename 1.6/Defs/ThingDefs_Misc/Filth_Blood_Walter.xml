@@ -2,7 +2,9 @@
 <Defs>
 
   <!-- Walter android blood: white milky synthetic fluid.
-       Uses the same splatter art as AVP-Xenomorphs blood, tinted white. -->
+       Graphic_Single (Graphic_Random fails with BaseFilth parent —
+       same issue seen in AVP-Xenomorphs blood defs).
+       Uses the first splatter variant from the WalterBlood set. -->
   <ThingDef ParentName="BaseFilth">
     <defName>LBC_FilthBloodWalter</defName>
     <label>synthetic fluid</label>
@@ -11,8 +13,8 @@
       <Cleanliness>-10</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/WalterBlood</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Filth/WalterBlood_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <filth>
       <rainWashes>true</rainWashes>
