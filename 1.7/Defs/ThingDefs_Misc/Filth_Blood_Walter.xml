@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Walter android blood: white milky synthetic fluid.
+       Filth_WalterBlood (C#) picks from 8 texture variants with
+       per-instance 90-degree rotation. -->
+  <ThingDef ParentName="BaseFilth">
+    <defName>LBC_FilthBloodWalter</defName>
+    <label>synthetic fluid</label>
+    <statBases>
+      <Beauty>-14</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/WalterBlood_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>CovetheusNoHAR.Filth_WalterBlood</thingClass>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+
+</Defs>

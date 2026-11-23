@@ -1,4 +1,4 @@
-# Covetheus (No HAR) — RimWorld 1.6
+# Covetheus (No HAR) — RimWorld 1.6/1.7
 
 The Covetheus mod without the Humanoid Alien Races (HAR) dependency. Features the Artificial Person (Android) race, USCSS Colony mission scenario, and Covetheus apparel — all using vanilla RimWorld systems.
 
@@ -18,7 +18,7 @@ Original mod by Lelbaro, updated by Zaljerem, HAR dependency removed by RhombusM
 
 ### Special Thanks
 - The RimWorld modding community
-- Ludeon Studios for RimWorld 1.6's native render tree system (made HAR removal possible)
+- Ludeon Studios for RimWorld 1.6/1.7's native render tree system (made HAR removal possible)
 
 ## Features
 
@@ -81,7 +81,7 @@ These features may be restored in future updates using Harmony patches instead o
 - Uses vanilla rendering pipeline
 
 ## Requirements
-- RimWorld 1.6
+- RimWorld 1.6/1.7
 - No other mods required
 
 ## Based On

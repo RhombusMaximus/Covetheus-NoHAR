@@ -4,8 +4,9 @@
 	<author>Lelbaro, Zaljerem, RhombusMaximus</author>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
-	<modVersion IgnoreIfNoMatchingField="True">2.0.0</modVersion>
+	<modVersion IgnoreIfNoMatchingField="True">2.1.0</modVersion>
 	<packageId>zal.covetheus.nohar</packageId>
 	<description>
 Covetheus without the Humanoid Alien Races (HAR) dependency.
@@ -25,7 +26,7 @@ HAR Removal:
 Converted from AlienRace.ThingDef_AlienRace to vanilla ThingDef with renderTree=Humanlike. All backstories converted to vanilla BackstoryDef. No mod dependencies required.
 
 Credits:
-Original mod by Lelbaro. 1.4/1.5 update by Zaljerem. 1.6 port and HAR removal by RhombusMaximus.
+Original mod by Lelbaro. 1.4/1.5 update by Zaljerem. 1.6 port and HAR removal by RhombusMaximus; 1.7 (Waylith/net10) update by RhombusMaximus.
 
 Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2077371272</description>
 </ModMetaData>

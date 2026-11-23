@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="Human">
+    <defName>Android_Walter</defName>
+    <label>artificial person</label>
+    <description>The world's most advanced synthetic companion. It seems that the human qualities of the David 8 series left people uncomfortable, especially the displays of ego, vanity, and pride. This lead to this new model, which lacks human qualities altogether.</description>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <MoveSpeed>4.00</MoveSpeed>
+      <Flammability>0.2</Flammability>
+      <PsychicSensitivity>0.0</PsychicSensitivity>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <PainShockThreshold>5</PainShockThreshold>
+      <ToxicResistance>0.7</ToxicResistance>
+      <MentalBreakThreshold>0.0</MentalBreakThreshold>
+      <WorkSpeedGlobal>0.55</WorkSpeedGlobal>
+      <ImmunityGainSpeed>10</ImmunityGainSpeed>
+      <LeatherAmount>0</LeatherAmount>
+      <MeatAmount>0</MeatAmount>
+      <SocialImpact>0.7</SocialImpact>
+      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <FoodPoisonChance>0.0</FoodPoisonChance>
+      <ButcheryFleshEfficiency>0.6</ButcheryFleshEfficiency>
+      <MedicalTendQuality>0.4</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.6</MedicalSurgerySuccessChance>
+      <Mass>30</Mass>
+      <RoyalFavorValue>5</RoyalFavorValue>
+    </statBases>
+
+    <tools Inherit="false">
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+
+    <race>
+      <renderTree>Humanlike</renderTree>
+      <bloodDef>LBC_FilthBloodWalter</bloodDef>
+      <bloodSmearDef>LBC_FilthBloodWalter</bloodSmearDef>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <useMeatFrom>Human</useMeatFrom>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Android_Walter</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <needsRest>false</needsRest>
+      <foodType>OmnivoreHuman</foodType>
+      <baseHungerRate>0.2</baseHungerRate>
+      <gestationPeriodDays>1</gestationPeriodDays>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <litterSizeCurve Inherit="false">
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges Inherit="false">
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve Inherit="false">
+        <points>
+          <li>(14,0)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+  </ThingDef>
+
+</Defs>

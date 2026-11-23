@@ -1,0 +1,11 @@
+<Defs>
+
+<ScenPartDef>
+  <defName>CustomScenParts_AddPawnKind</defName>
+  <label>start with pawn kind</label>
+  <description>Adds a pawn of a specified PawnKindDef to the starting map.</description>
+  <scenPartClass>CustomScenParts.ScenPart_AddPawnKind</scenPartClass>
+  <category>Misc</category>
+</ScenPartDef>
+
+</Defs>
